@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
 import "./App.css";
-import About from "./components/About";
-import ClothingItem from "./components/ClothingItem";
-import Search from "./components/Search";
 
 function App() {
   return (
