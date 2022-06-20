@@ -1,7 +1,7 @@
 import React from "react";
 
-const BadMatch = () => {
+const NoMatch = () => {
   return <div>Nothing here. Go Home.</div>;
 };
 
-export default BadMatch;
+export default NoMatch;
