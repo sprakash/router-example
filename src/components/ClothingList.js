@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 const ClothingList = () => {
   const [list, setList] = useState(["top", "skirt", "hat", "belt"]);
+
   return (
     <div>
       List of Clothing
@@ -14,6 +15,9 @@ const ClothingList = () => {
             </Link>
           );
         })}
+      <button type="button" onClick={() => setList([...list, "newoutfit"])}>
+        add new outfit
+      </button>
       <Outlet />
     </div>
   );
