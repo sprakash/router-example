@@ -7,7 +7,7 @@ import About from "./components/About";
 import Search from "./components/Search";
 import ClothingList from "./components/ClothingList";
 import ClothingItem from "./components/ClothingItem";
-import NoMatch from "./components/NoMatch";
+import BadMatch from "./components/BadMatch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,7 +20,7 @@ root.render(
         <Route path="/list" element={<ClothingList />}>
           <Route path=":item" element={<ClothingItem />} />
         </Route>
-        <Route path="*" element={<NoMatch />} />
+        <Route path="*" element={<BadMatch />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
