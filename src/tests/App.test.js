@@ -13,5 +13,3 @@ describe("App", () => {
     screen.getByText("Clothing Store");
   });
 });
-
-// reference : https://www.smashingmagazine.com/2020/06/practical-guide-testing-react-applications-jest/
