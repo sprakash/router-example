@@ -33,6 +33,6 @@ jobs:
         with:
           image: sprakash101/test-ci-cd
           tags: v1, latest
-          registry: registry.hub.docker.com/library/sprakash101
+          registry: registry.hub.docker.com/u/sprakash101
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
