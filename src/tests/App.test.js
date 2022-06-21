@@ -10,6 +10,6 @@ describe("App", () => {
         <App />
       </Router>
     );
-    screen.getByText("Feature Clothing Store");
+    screen.getByText("Main Clothing Store");
   });
 });
