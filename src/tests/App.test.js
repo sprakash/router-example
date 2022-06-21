@@ -10,8 +10,6 @@ describe("App", () => {
         <App />
       </Router>
     );
-    screen.getByText("Clothing Store");
+    screen.getByText("Feature Clothing Store");
   });
 });
-
-// reference : https://www.smashingmagazine.com/2020/06/practical-guide-testing-react-applications-jest/
