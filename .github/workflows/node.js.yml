@@ -33,7 +33,7 @@ jobs:
         with:
           image: sprakash101/test-ci-cd
           tags: v1, latest
-          registry: registry.hub.docker.com/r/sprakash101/test-ci-cd
+          registry: registry.hub.docker.com
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
